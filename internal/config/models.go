@@ -226,6 +226,7 @@ type configSchema struct {
 		MinimalGroupWidth    int    `yaml:"minimalGroupWidth" koanf:"minimalGroupWidth"`
 		AlertsPerGroup       int    `yaml:"alertsPerGroup" koanf:"alertsPerGroup"`
 		CollapseGroups       string `yaml:"collapseGroups" koanf:"collapseGroups"`
+		EmptyAlertIcon       string `yaml:"emptyAlertIcon" koanf:"emptyAlertIcon"`
 		MultiGridLabel       string `yaml:"multiGridLabel" koanf:"multiGridLabel"`
 		MultiGridSortReverse bool   `yaml:"multiGridSortReverse" koanf:"multiGridSortReverse"`
 	}

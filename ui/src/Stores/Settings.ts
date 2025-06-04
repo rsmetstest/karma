@@ -287,6 +287,7 @@ class Settings {
   filterBarConfig: FilterBarConfig;
   themeConfig: ThemeConfig;
   multiGridConfig: MultiGridConfig;
+  emptyAlertIcon: string;
 
   constructor(defaults: UIDefaults | null | undefined) {
     let defaultSettings: UIDefaults;
@@ -300,6 +301,7 @@ class Settings {
         MinimalGroupWidth: 420,
         AlertsPerGroup: 5,
         CollapseGroups: "collapsedOnMobile",
+        EmptyAlertIcon: "mug-hot",
         MultiGridLabel: "",
         MultiGridSortReverse: false,
       };
@@ -329,6 +331,7 @@ class Settings {
       defaultSettings.MultiGridLabel,
       defaultSettings.MultiGridSortReverse,
     );
+    this.emptyAlertIcon = defaultSettings.EmptyAlertIcon;
   }
 }
 

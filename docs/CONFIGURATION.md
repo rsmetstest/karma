@@ -1311,6 +1311,7 @@ ui:
   minimalGroupWidth: integer
   alertsPerGroup: integer
   collapseGroups: string
+  emptyAlertIcon: string
   multiGridLabel: string
   multiGridSortReverse: bool
 ```
@@ -1342,6 +1343,7 @@ ui:
   - collapsed - groups are always collapsed
   - collapsedOnMobile - groups are expanded on desktop and collapsed on mobile
     browsers
+- `emptyAlertIcon` - FontAwesome icon name to show when there are no alerts
 - `multiGridLabel` - when set to a label name it enables multi-grid support.
   With multi-grid karma will have a dedicated grid for each value of this label,
   all alerts sharing that value will be placed on the same grid. There will be
@@ -1367,6 +1369,7 @@ ui:
   minimalGroupWidth: 420
   alertsPerGroup: 5
   collapseGroups: collapsedOnMobile
+  emptyAlertIcon: mug-hot
   multiGridLabel: ""
   multiGridSortReverse: false
 ```

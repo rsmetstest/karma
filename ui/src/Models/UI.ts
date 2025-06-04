@@ -11,6 +11,7 @@ export interface UIDefaults {
   MinimalGroupWidth: number;
   AlertsPerGroup: number;
   CollapseGroups: CollapseGroupsT;
+  EmptyAlertIcon: string;
   MultiGridLabel: string;
   MultiGridSortReverse: boolean;
 }

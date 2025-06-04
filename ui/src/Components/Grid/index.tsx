@@ -35,7 +35,7 @@ const Grid: FC<{
     alertStore.data.upstreams.instances.length === 0 ? (
       <NoUpstream />
     ) : (
-      <EmptyGrid />
+      <EmptyGrid settingsStore={settingsStore} />
     )
   ) : (
     <AlertGrid

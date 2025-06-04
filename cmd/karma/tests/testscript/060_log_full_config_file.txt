@@ -285,6 +285,7 @@ level=info msg="  animations: false"
 level=info msg="  minimalGroupWidth: 420"
 level=info msg="  alertsPerGroup: 5"
 level=info msg="  collapseGroups: collapsedOnMobile"
+level=info msg="  emptyAlertIcon: mug-hot"
 level=info msg="  multiGridLabel: severity"
 level=info msg="  multiGridSortReverse: true"
 level=info msg="Configured Alertmanager source" cluster=HA name=ha1 proxy=true readonly=false uri=http://127.0.0.1:9093
@@ -497,6 +498,7 @@ ui:
   minimalGroupWidth: 420
   alertsPerGroup: 5
   collapseGroups: collapsedOnMobile
+  emptyAlertIcon: mug-hot
   multiGridLabel: severity
   multiGridSortReverse: true
 
