@@ -134,6 +134,7 @@ level=info msg="  animations: true"
 level=info msg="  minimalGroupWidth: 420"
 level=info msg="  alertsPerGroup: 5"
 level=info msg="  collapseGroups: collapsedOnMobile"
+level=info msg="  emptyAlertIcon: mug-hot"
 level=info msg="  multiGridLabel: \"\""
 level=info msg="  multiGridSortReverse: false"
 level=info msg="Configured Alertmanager source" cluster=readonly name=readonly proxy=false readonly=true uri=http://127.0.0.1

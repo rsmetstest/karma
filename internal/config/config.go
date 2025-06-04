@@ -153,6 +153,7 @@ func SetupFlags(f *pflag.FlagSet) {
 	f.Int("ui.minimalGroupWidth", 420, "Minimal width for each alert group on the grid")
 	f.Int("ui.alertsPerGroup", 5, "Default number of alerts to show for each alert group")
 	f.String("ui.collapseGroups", "collapsedOnMobile", "Default state for alert groups")
+	f.String("ui.emptyAlertIcon", "mug-hot", "Icon name used when there are no alerts")
 }
 
 func validateConfigFile(path string) error {
@@ -253,6 +254,8 @@ func readEnvVariables(k *koanf.Koanf) {
 			return "ui.alertsPerGroup"
 		case "UI_COLLAPSEGROUPS":
 			return "ui.collapseGroups"
+		case "UI_EMPTYALERTICON":
+			return "ui.emptyAlertIcon"
 		default:
 			return strings.Replace(strings.ToLower(s), "_", ".", -1)
 		}

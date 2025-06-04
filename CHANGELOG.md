@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.122
+
+### Added
+
+- Config option `ui:emptyAlertIcon` allows custom FontAwesome icon when no alerts are present.
+
 ## v0.121
 
 ### Added

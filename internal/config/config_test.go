@@ -163,6 +163,7 @@ ui:
   minimalGroupWidth: 420
   alertsPerGroup: 5
   collapseGroups: collapsedOnMobile
+  emptyAlertIcon: mug-hot
   multiGridLabel: ""
   multiGridSortReverse: false
 `
